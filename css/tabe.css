@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3a3535, #aaa8a8);
+  }
+  
+/* Style pour le tableau */
+.tableau {
+    width: 100%;
+    border : 2px black;
+    position: center;
+  }
+  
+  /* Style pour les cellules du tableau */
+  .tableau td, .tableau th {
+    background-color: white;
+    border: 5px black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style pour les en-têtes du tableau */
+  .tableau th {
+    background-color: #f94a25; /* Couleur d'orange pour les en-têtes */
+    color: #fff; /* Couleur du texte pour les en-têtes */
+  }
+
+h1 {
+    color: #f94a25; /* Couleur du texte */
+    font-size: 36px; /* Taille de police */
+    font-weight: bold; /* Gras */
+    text-align: center; /* Alignement du texte */
+    text-transform: uppercase; /* Transformation en majuscules */
+    margin-top: 50px; /* Marge supérieure */
+}

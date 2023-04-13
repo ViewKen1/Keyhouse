@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3a3535, #aaa8a8);
+  }
+  
+/* Style pour le tableau */
+.tableau {
+    width: 100%;
+    border : 2px black;
+    position: center;
+  }
+  
+  /* Style pour les cellules du tableau */
+  .tableau td, .tableau th {
+    background-color: white;
+    border: 5px black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style pour les en-têtes du tableau */
+  .tableau th {
+    background-color: #f94a25; /* Couleur d'orange pour les en-têtes */
+    color: #fff; /* Couleur du texte pour les en-têtes */
+  }
+
+h1 {
+    color: #f94a25; /* Couleur du texte */
+    font-size: 36px; /* Taille de police */
+    font-weight: bold; /* Gras */
+    text-align: center; /* Alignement du texte */
+    text-transform: uppercase; /* Transformation en majuscules */
+    margin-top: 50px; /* Marge supérieure */
+}
+
+  /* Style pour la barre de menu */
+  .menu ul{
+    background-color: #f94a25; /* Couleur d'orange pour le fond de la barre de menu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Hauteur de la barre de menu */
+  }
+
+  .menu li {
+    display: inline; /* Afficher les éléments de menu en ligne */
+    padding: 10px;
+    position: relative;
+
+
+  }
+  
+  
+  /* Style pour les liens du menu */
+  .menu li a {
+    /*color: #fff; Couleur du texte des liens */
+    /*text-decoration: none;*/
+    padding: 13px; /*Espacement autour des liens */
+    position: relative;
+    display: inside;
+    width: 70%;
+    height: 10px;
+
+    background: linear-gradient(120deg, #3a3535, #aaa8a8, #3a3535);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    
+  }
+
+ 
+  /* Style pour les liens du menu au survol */
+  .menu li a:hover {
+    /*background-color: #2614ce;  Couleur de fond des liens au survol */
+    /*color: #f94a25;  Couleur du texte des liens au survol */
+    background-position: right;
+
+  }

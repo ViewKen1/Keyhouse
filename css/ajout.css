@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #3a3535, #aaa8a8);
+  }
+
+  .titre {
+    color: #f94a25;
+    width: 360px;
+    background: #f1f1f1;
+    height: 500px;
+    padding: 80px 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .debut{
+    text-align: left;
+    display: block;
+  }
+
+
+    .bouton {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: linear-gradient(120deg, #3a3535, #aaa8a8, #3a3535);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+.bouton:hover {
+    background-position: right;
+  }
+
+
+    /* Style pour la barre de menu */
+ .menu ul{
+  background-color: #f94a25; /* Couleur d'orange pour le fond de la barre de menu */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Hauteur de la barre de menu */
+}
+
+.menu li {
+  display: inline; /* Afficher les éléments de menu en ligne */
+  padding: 10px;
+  position: relative;
+
+
+}
+
+
+/* Style pour les liens du menu */
+.menu li a {
+  /*color: #fff; Couleur du texte des liens */
+  /*text-decoration: none;*/
+  padding: 13px; /*Espacement autour des liens */
+  position: relative;
+  display: inside;
+  width: 70%;
+  height: 10px;
+
+  background: linear-gradient(120deg, #3a3535, #aaa8a8, #3a3535);
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+
+
+/* Style pour les liens du menu au survol */
+.menu li a:hover {
+  /*background-color: #2614ce;  Couleur de fond des liens au survol */
+  /*color: #f94a25;  Couleur du texte des liens au survol */
+  background-position: right;
+
+}
